@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phishing Detection Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/mini.css') }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo">
+        <p>{{ user_email }}</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a></li>
+          <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
+          <li><a href="{{ url_for('profile1') }}"><i class="fas fa-user"></i> Profile</a></li>
+          <li><a href="{{ url_for('contact') }}"><i class="fas fa-envelope"></i> Contact</a></li>
+          <li><a href="http://127.0.0.1:5001"><i class="fas fa-link"></i> URL</a></li>
+          <li><a href="http://127.0.0.1:5002"><i class="fas fa-phone"></i> Phone Number</a></li>
+          <li><a href="http://127.0.0.1:5003"><i class="fas fa-comment-dots"></i> QR-Code</a></li>
+          <li><a href="http://127.0.0.1:5004"><i class="fas fa-qrcode"></i> Messages</a></li>
+          <li><a href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main-content">
+      <header>
+        <h1>Phishing Detection Dashboard</h1>
+      </header>
+      <section class="widgets">
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/phishing-1.png') }}" alt="Phishing Attempt 1">
+          <canvas id="chart1"></canvas>
+        </div>
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/phishing-2-1.jpg') }}" alt="Phishing Attempt 2">
+          <canvas id="chart2"></canvas>
+        </div>
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/design2.jpeg') }}" alt="Phishing Attempt 3">
+          <canvas id="chart3"></canvas>
+        </div>
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/piechart.png') }}" alt="Phishing Attempt 4">
+          <canvas id="chart4"></canvas>
+        </div>
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/Designer.jpeg') }}" alt="Phishing Attempt 5">
+          <canvas id="chart4"></canvas>
+        </div>
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/design.jpeg') }}" alt="Phishing Attempt 6">
+          <canvas id="chart4"></canvas>
+        </div>
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/design3.jpeg') }}" alt="Phishing Attempt 6">
+          <canvas id="chart4"></canvas>
+        </div>
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/design4.jpeg') }}" alt="Phishing Attempt 6">
+          <canvas id="chart4"></canvas>
+        </div>
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/design5.jpeg') }}" alt="Phishing Attempt 6">
+          <canvas id="chart4"></canvas>
+        </div>
+        <div class="widget">
+          <img src="{{ url_for('static', filename='images/design6.jpeg') }}" alt="Phishing Attempt 6">
+          <canvas id="chart4"></canvas>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
