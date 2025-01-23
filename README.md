@@ -108,21 +108,6 @@ Contributions are welcome! To contribute:
    ```  
 4. Push to the branch and submit a pull request.
 
----
-
-## **📜 License**  
-This project is licensed under the [MIT License](LICENSE).  
-
----
-
-## **📬 Contact**  
-For inquiries, feel free to reach out:  
-- **Email**: your.email@example.com  
-- **LinkedIn**: [Your Name](https://linkedin.com/in/yourprofile)  
-- **GitHub**: [your-username](https://github.com/your-username)  
-
----
-
 ## **🌟 Acknowledgments**  
 Special thanks to the contributors, open-source libraries, and dataset providers for making this project possible.
 
