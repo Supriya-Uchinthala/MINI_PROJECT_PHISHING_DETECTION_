@@ -4,7 +4,6 @@ Here’s a professional and attractive **README.md** template for your phishing 
 
 # **Phishing Detection Using Machine Learning**
 
-![Project Banner](https://via.placeholder.com/1200x400?text=Phishing+Detection+Using+ML)  
 *A comprehensive approach to detecting phishing attempts via URLs, messages, phone numbers, and QR codes.*
 
 ---
